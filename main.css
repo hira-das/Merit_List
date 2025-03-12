@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* Light Grey Background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f2f0f9; /* Light Purple Background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2b8fe7; /* Dark Blue */
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #2b8fe7; /* Dark Blue */
+    font-size: 1.2em;
+}
+
+.sort-container {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sort-box {
+    padding: 12px 20px;
+    border: 2px solid #2b8fe7; /* Dark Blue */
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #2b8fe7; /* Dark Blue */
+}
+
+#sortOptions {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border: 2px solid #2b8fe7; /* Dark Blue */
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sortOptions:hover {
+    border-color: #42a5f5; /* Light Blue */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #2b8fe7; /* Dark Blue */
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #94ccee; /* Soft Light Blue for Odd Rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* White for Even Rows */
+}
+
+tbody tr:hover {
+    background-color:#abdce1; /* Light Purple Hover Effect */
+}
+
+footer {
+    background-color: #2b8fe7; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+

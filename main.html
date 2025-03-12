@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjectwise Merit List</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dhaka University A Unit</h1>
+        <h3>Subjectwise Merit List (2023-24)</h3>
+
+        <!-- Sort by Section -->
+        <div class="sort-container">
+            <div class="sort-box">
+                <span>Sort by:</span>
+            </div>
+            <select id="sortOptions" onchange="sortData()">
+                <option value="department">Department</option>
+                <option value="seat">Seat</option>
+                <option value="firstMerit">First Merit</option>
+                <option value="lastMerit">Last Merit</option>
+                <option value="lmQuota">LM Quota</option>
+            </select>
+        </div>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Seat</th>
+                    <th>First Merit</th>
+                    <th>Last Merit</th>
+                    <th>LM Quota</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data inserted dynamically -->
+            </tbody>
+        </table>
+
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>Data Collected and Composed By</p>
+            <p>Mahir Alvi Ridvi (ISRT)</p>
+            <p>Shariar Shakib (Pharmacy)</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Hira Das (ISRT). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
